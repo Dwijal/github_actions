@@ -1,0 +1,13 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+on: push
+
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sample Print
+        run: |
+          echo "This is first script"
