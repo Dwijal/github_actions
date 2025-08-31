@@ -12,7 +12,7 @@ jobs:
   first-job:
     env:
       job_variable: job_variable
-      workflow_override: workflow_override
+      workflow_override: job_workflow_override
     runs-on: ubuntu-latest
     steps:
       - name: Printing the workflow variable
